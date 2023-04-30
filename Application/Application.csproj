@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-preview.3.23174.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Common\Behaviours" />
+      <Folder Include="Common\Exceptions" />
+      <Folder Include="Common\Mappings" />
+      <Folder Include="Common\Models" />
+      <Folder Include="Common\Security" />
+      <Folder Include="Examples" />
+    </ItemGroup>
+
+</Project>
