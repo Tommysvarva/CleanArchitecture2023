@@ -1,3 +1,5 @@
+using Application.Examples.Commands.CreateExample;
+using Application.Examples.Queries.GetExamples;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -5,37 +7,17 @@ namespace API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class PresentationsController : ApiControllerBase
+public class ExamplesController : ApiControllerBase
 {
     [HttpGet]
     public async Task<ActionResult<List<Example>>> Get()
     {
-        return new List<Example>
-        {
-            new Example
-            {
-                Id = 1,
-                Title = "First example"
-            },
-            new Example
-            {
-                Id = 2,
-                Title = "Second example"
-            },
-        };
+        return await Mediator.Send(new GetExamplesQuery());
     }
 
     [HttpPost]
-    public async Task<ActionResult> Create(string title)
+    public async Task<ActionResult<int>> Create(CreateExampleCommand command)
     {
-        await Task.Run(() =>
-        {
-            var presentation = new Example
-            {
-                Title = title
-            };
-        });
-
-        return Ok();
+        return await Mediator.Send(command);
     }
 }

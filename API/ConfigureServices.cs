@@ -1,4 +1,4 @@
-namespace API;
+namespace Microsoft.Extensions.DependencyInjection;
 
 public static class ConfigureServices
 {
@@ -11,7 +11,6 @@ public static class ConfigureServices
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
-        
         return services;
     }
 }
