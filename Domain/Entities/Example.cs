@@ -1,5 +1,5 @@
 namespace Domain.Entities;
-public class Example : BaseEntity
+public class Example : BaseAuditableEntity
 {
     public string? Title { get; set; }
 }

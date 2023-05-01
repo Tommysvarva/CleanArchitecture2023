@@ -1,5 +1,4 @@
 namespace Domain.Events;
-
 public class ExampleCreatedEvent : BaseEvent
 {
     public Example Example { get; }

@@ -10,7 +10,7 @@ namespace API.Controllers;
 public class ExamplesController : ApiControllerBase
 {
     [HttpGet]
-    public async Task<ActionResult<List<Example>>> Get()
+    public async Task<ActionResult<List<ExampleDto>>> Get()
     {
         return await Mediator.Send(new GetExamplesQuery());
     }
