@@ -13,31 +13,11 @@
     <projectFile profileName="https">WebUI/WebUI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="Added Mapperly">
-      <change afterPath="$PROJECT_DIR$/Application/Common/Behaviours/LoggingBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Common/Interfaces/IDateTime.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Examples/EventHandlers/ExampleCreatedEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Examples/EventHandlers/ExampleDeletedEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Common/MediatorExstensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Persistence/Interceptors/AuditableEntitySaveChangesInterceptor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/20230501191922_Initial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/20230501191922_Initial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/DateTimeService.cs" afterDir="false" />
+    <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/Common/Behaviours/UnhandledExceptionBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.metadata.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.metadata.v6.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.projects.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.projects.v6.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ExamplesControlles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ExamplesControlles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Example.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Example.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Events/ExampleCreatedEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Events/ExampleCreatedEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/GlobalUsings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ConfigureServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Persistence/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/20230430195638_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/20230430195638_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ConfigureServices.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,29 +54,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver",
-      "sqlserver.localdb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;,
+      &quot;sqlserver.localdb&quot;
     ],
-    "rider.external.source.directories": [
-      "C:\\Users\\tasec\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\tasec\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\tasec\\AppData\\Local\\Symbols\\src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\tasec\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\tasec\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\tasec\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
@@ -200,7 +180,8 @@
       <workItem from="1682879652685" duration="719000" />
       <workItem from="1682880400680" duration="1104000" />
       <workItem from="1682884168088" duration="9022000" />
-      <workItem from="1682964207503" duration="7273000" />
+      <workItem from="1682964207503" duration="7514000" />
+      <workItem from="1683056899765" duration="1305000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1682874771715</created>
@@ -226,7 +207,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1682895744573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="more basic impl">
+      <created>1682971884062</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1682971884062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,39 +238,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Intal commit working" />
     <MESSAGE value="Added Mapperly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Mapperly" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Infrastructure/Common/MediatorExstensions.cs</url>
-          <line>10</line>
-          <properties documentPath="F:\GIT\FieldServiceHelper\Infrastructure\Common\MediatorExstensions.cs" initialLine="10" containingFunctionPresentation="method 'DispatchDomainEvents'">
-            <startOffsets>
-              <option value="259" />
-            </startOffsets>
-            <endOffsets>
-              <option value="441" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Application/Common/Behaviours/LoggingBehaviour.cs</url>
-          <line>17</line>
-          <properties documentPath="F:\GIT\FieldServiceHelper\Application\Common\Behaviours\LoggingBehaviour.cs" initialLine="16" containingFunctionPresentation="method 'Process'">
-            <startOffsets>
-              <option value="448" />
-            </startOffsets>
-            <endOffsets>
-              <option value="556" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="more basic impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="more basic impl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
