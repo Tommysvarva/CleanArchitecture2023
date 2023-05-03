@@ -1,6 +1,5 @@
 using Application.Examples.Commands.CreateExample;
 using Application.Examples.Queries.GetExamples;
-using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;

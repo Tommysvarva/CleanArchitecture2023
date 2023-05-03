@@ -13,21 +13,43 @@
     <projectFile profileName="https">WebUI/WebUI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="Added UnhandledExceptionBehaviour.cs">
+    <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="Added ValidationBehaviours">
+      <change afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/6678dae6-9ab3-4174-93f4-a937cbbcfa1f.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/7eae6c1f-27f0-43e3-a7c2-b3742f348b20.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Persistence/Configurations/ExampleConfiguration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/ConfigureServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/28df2d19-ec15-4daf-b72b-3ab3cb85ccab.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/8805a679-a772-4128-9236-dd1927924053.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/ConfigureServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/ExamplesControlles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ExamplesControlles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ConfigureServices.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSON File" />
+      </list>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/c11a2aa831d04e8eba36f4248c870ea110e00/26/cbec533f/0200000Dpdb7.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0174c7c224ed40788337e3b948ec47bf80c8b0/23/9da45c1c/NamespaceHandling.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5cac17a4b63740c88de98db9a24bd1226ef800/6f/d2f050e4/SwaggerSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b295871bfa0e4998936e6bd5ae07990a408b0/8d/2c231926/HttpServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6093b1f829b4fe5ba31f94df67b40c66000/31/0868b5ce/FluentValidationSchemaProcessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fa0d074cf0ed4fa4a0a176c8826210f71fc7c0/47/556a73c3/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12f8d680aa1c5ae78dc1fb7cf8212be01e323372dbe3b9b87360e27c58936a/IRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1aee7810d6346893bb74bb0837c272b11a0f53fa2e6561f89136dd192da3af9/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f371daa9d6feabe01612a3aa37cb2c6c80a984cb4efc21d718f7f8c9e0ca/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/327f875fd92c358a2c6b3c48cc81b288070ecb997371cd17419f80a482a617/LayoutComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57ef264888488357640f23a308ccecd818012805b7b56dd32bd469a819f56ee/IPipelineBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5d5db687ee14799d7e1e2dcb6868b02d43c1c6ff712d6df9a33648e8a91cd7/MediatrServiceConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
@@ -36,7 +58,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/816dbaba8a29ece3dd3dc326642858d27d2d19142f9a2109bb04617985ec9/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8aca45508683a6169bab9e8bd96b7cda607d638cacfaa31173c8c278c45/ISender.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8aeca8dfcec95a81b42a28e5c138e1c321e89def3fed605511172a8beaec/AsyncTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9dffe2c1bfadbba3cc54dd67efd32ec5ddbd8632382da9153e687cfb9cb2da/Assembly.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9dffe2c1bfadbba3cc54dd67efd32ec5ddbd8632382da9153e687cfb9cb2da/Assembly.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1e830db66f4537520b48f395e1d155c5280a87c9832c95b2e918185764c773/INotificationHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a62d52e4cd3e5325829357cce9d4e0b145cf712db36e988d1579943c9013160/IMediator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b37bdcda3df384671c8eed0dd528e74eff6e04eeb7b1e81f219e5e066318/ComponentBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,7 +68,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74356f198b598e97eaeea83e8b7b1f2bfe27c0a39fedf86bb7dc44827fbda/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eaf74182ad7c943aaf043fd9e7bbb1d564713c6bd276e62966aaa618e9/LoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eb1569de671985d709333d699e35bcf5219aa6e173421d3425379ffd2498e/IRequestPreProcessor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ec11765cbb8c53eff7ee868d6884fa5d48e1b543926061744e7947896e88422/CancellationToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ec11765cbb8c53eff7ee868d6884fa5d48e1b543926061744e7947896e88422/CancellationToken.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2Omv1mTaE5UusvbRFFL1TzFOUnk" />
@@ -186,7 +208,7 @@
       <workItem from="1682884168088" duration="9022000" />
       <workItem from="1682964207503" duration="7514000" />
       <workItem from="1683056899765" duration="6400000" />
-      <workItem from="1683127472837" duration="593000" />
+      <workItem from="1683127472837" duration="7133000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1682874771715</created>
@@ -224,7 +246,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1683058279692</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Added ValidationBehaviours">
+      <created>1683132840935</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1683132840935</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +279,8 @@
     <MESSAGE value="Added Mapperly" />
     <MESSAGE value="more basic impl" />
     <MESSAGE value="Added UnhandledExceptionBehaviour.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added UnhandledExceptionBehaviour.cs" />
+    <MESSAGE value="Added ValidationBehaviours" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ValidationBehaviours" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
