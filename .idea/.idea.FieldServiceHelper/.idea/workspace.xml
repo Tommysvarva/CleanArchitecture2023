@@ -13,20 +13,21 @@
     <projectFile profileName="https">WebUI/WebUI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="Added ValidationBehaviours">
-      <change afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/6678dae6-9ab3-4174-93f4-a937cbbcfa1f.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/7eae6c1f-27f0-43e3-a7c2-b3742f348b20.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Persistence/Configurations/ExampleConfiguration.cs" afterDir="false" />
+    <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="added nswag">
+      <change afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/26ab12b3-7137-4cf4-b950-688d3e61ca36.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/HierarchyCache.v1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.UnitTests/Application.UnitTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/LoggingBehaviourTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/UnhandledExceptionBehaviourTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FieldServiceHelper.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/28df2d19-ec15-4daf-b72b-3ab3cb85ccab.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/8805a679-a772-4128-9236-dd1927924053.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/7337d039-6d7e-4d33-b6de-fe8f9bd36df5.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.futdcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/ConfigureServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ExamplesControlles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ExamplesControlles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ConfigureServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.metadata.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.metadata.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.projects.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.projects.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldServiceHelper.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FieldServiceHelper.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +47,23 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5cac17a4b63740c88de98db9a24bd1226ef800/6f/d2f050e4/SwaggerSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b295871bfa0e4998936e6bd5ae07990a408b0/8d/2c231926/HttpServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6093b1f829b4fe5ba31f94df67b40c66000/31/0868b5ce/FluentValidationSchemaProcessor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dbd65ac6359d4a90800c55b9611e0a92a23880/39/03279e50/IReadOnlyList`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fa0d074cf0ed4fa4a0a176c8826210f71fc7c0/47/556a73c3/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12f8d680aa1c5ae78dc1fb7cf8212be01e323372dbe3b9b87360e27c58936a/IRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1aee7810d6346893bb74bb0837c272b11a0f53fa2e6561f89136dd192da3af9/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f371daa9d6feabe01612a3aa37cb2c6c80a984cb4efc21d718f7f8c9e0ca/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/327f875fd92c358a2c6b3c48cc81b288070ecb997371cd17419f80a482a617/LayoutComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43d942565ce5bcf4f5873a5f9e89c5892322f865f81d3a8af8fca8d4c8fc84/IInvocationList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57ef264888488357640f23a308ccecd818012805b7b56dd32bd469a819f56ee/IPipelineBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5d5db687ee14799d7e1e2dcb6868b02d43c1c6ff712d6df9a33648e8a91cd7/MediatrServiceConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/659951c221ca1c435718c2e746a9e7f9343bbf8054969595da489dcd95175737/DynamicComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ad7d2d0ae865063993eb8a03427815ea3bdb6a774e0a2f95512e9f669a4f489/MemberEntry.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/816dbaba8a29ece3dd3dc326642858d27d2d19142f9a2109bb04617985ec9/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/83c19ad3acd28b4b09c4d9e889ee66e119b0013fccd6542425d45713691d/Mock.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8aca45508683a6169bab9e8bd96b7cda607d638cacfaa31173c8c278c45/ISender.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8aeca8dfcec95a81b42a28e5c138e1c321e89def3fed605511172a8beaec/AsyncTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9430454d60c1a54d7aff19884d8687787092593cc652c5e9611dcb06f351b6e/IInvocation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/999ae9cc4ab7b7cfbc5080803e994426e97fd9d87c5b1f44544a799bc114/StringAsserts.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9dffe2c1bfadbba3cc54dd67efd32ec5ddbd8632382da9153e687cfb9cb2da/Assembly.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1e830db66f4537520b48f395e1d155c5280a87c9832c95b2e918185764c773/INotificationHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a62d52e4cd3e5325829357cce9d4e0b145cf712db36e988d1579943c9013160/IMediator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -208,7 +214,7 @@
       <workItem from="1682884168088" duration="9022000" />
       <workItem from="1682964207503" duration="7514000" />
       <workItem from="1683056899765" duration="6400000" />
-      <workItem from="1683127472837" duration="7133000" />
+      <workItem from="1683127472837" duration="13535000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1682874771715</created>
@@ -252,7 +258,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1683132840935</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="added nswag">
+      <created>1683140850264</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1683140850264</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +292,27 @@
     <MESSAGE value="more basic impl" />
     <MESSAGE value="Added UnhandledExceptionBehaviour.cs" />
     <MESSAGE value="Added ValidationBehaviours" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ValidationBehaviours" />
+    <MESSAGE value="added nswag" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nswag" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/LoggingBehaviourTests.cs</url>
+          <line>23</line>
+          <properties documentPath="F:\GIT\FieldServiceHelper\Application.UnitTests\Common\Behaviours\LoggingBehaviourTests.cs" initialLine="28" containingFunctionPresentation="method 'ShouldReturnCorrectTaskCompleted'">
+            <startOffsets>
+              <option value="745" />
+            </startOffsets>
+            <endOffsets>
+              <option value="759" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
