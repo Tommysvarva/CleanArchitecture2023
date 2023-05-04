@@ -9,7 +9,7 @@ public class ExampleConfiguration : IEntityTypeConfiguration<Example>
     public void Configure(EntityTypeBuilder<Example> builder)
     {
         builder.Property(e => e.Title)
-            .HasMaxLength(200)
+            .HasMaxLength(100)
             .IsRequired();
     }
 }
