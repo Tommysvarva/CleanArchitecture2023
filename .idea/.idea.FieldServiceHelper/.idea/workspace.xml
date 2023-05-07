@@ -14,10 +14,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/ValidationBehaviourTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.UnitTests/Common/Exceptions/ValidationExceptionTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.UnitTests/Common/Mappers/ExampleMapperTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.UnitTests/GlobalUsings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain.UnitTests/Common/BaseAuditableEntityTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain.UnitTests/Common/BaseEntityTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain.UnitTests/Domain.UnitTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain.UnitTests/GlobalUsings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ConfigureServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Examples/Commands/CreateExample/CreateExampleCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Examples/Commands/CreateExample/CreateExampleCommandValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Configurations/ExampleConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Persistence/Configurations/ExampleConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/LoggingBehaviourTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/LoggingBehaviourTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/UnhandledExceptionBehaviourTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/UnhandledExceptionBehaviourTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldServiceHelper.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FieldServiceHelper.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldServiceHelper.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/FieldServiceHelper.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +48,24 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6093b1f829b4fe5ba31f94df67b40c66000/31/0868b5ce/FluentValidationSchemaProcessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dbd65ac6359d4a90800c55b9611e0a92a23880/39/03279e50/IReadOnlyList`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fa0d074cf0ed4fa4a0a176c8826210f71fc7c0/47/556a73c3/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/03ac07f794a71f728baff7e267a90dee13380a2532e2062c51debe4571217a/ILoggerT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12f8d680aa1c5ae78dc1fb7cf8212be01e323372dbe3b9b87360e27c58936a/IRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1aee7810d6346893bb74bb0837c272b11a0f53fa2e6561f89136dd192da3af9/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1f371daa9d6feabe01612a3aa37cb2c6c80a984cb4efc21d718f7f8c9e0ca/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/304f5841233fb6ca805af9cb49d162e9bcb29130d9cef09455a59ecae71e4a76/Mock`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/327f875fd92c358a2c6b3c48cc81b288070ecb997371cd17419f80a482a617/LayoutComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/35e7e538796eca19115e7f3c2f459e1951ae177d47eb48ebbf393bff3ac/Select.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43d942565ce5bcf4f5873a5f9e89c5892322f865f81d3a8af8fca8d4c8fc84/IInvocationList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/538d6298bbdfde97cc62b11f4c9b6d3f7a94e3f60a7f2fd9f9c13aa13bb6573/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57ef264888488357640f23a308ccecd818012805b7b56dd32bd469a819f56ee/IPipelineBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5d5db687ee14799d7e1e2dcb6868b02d43c1c6ff712d6df9a33648e8a91cd7/MediatrServiceConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/64d54c9380e9feafc4516c6538f7205ed34690deab5738a284de992657bbefc/CallSiteFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/659951c221ca1c435718c2e746a9e7f9343bbf8054969595da489dcd95175737/DynamicComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6879c9ed20391a5ccfea363be5964fbcfe4f1dfde9558aa84b36df6b6ec92c6/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/72d4c2a2a11f35e7651506d18dce6d5f2fcf2eb8a57ac4bba5b9ca8178b02a/ValidationException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/794bcfedceb3c6d957fbddf0e1c9a04afca77f9b5470c6859466cfba35e1ddb1/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ad7d2d0ae865063993eb8a03427815ea3bdb6a774e0a2f95512e9f669a4f489/MemberEntry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7b45c28cfc11122669a3335b2554d8721ab9c8852ed3ea489c44a32ff3b64e6/It.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/816dbaba8a29ece3dd3dc326642858d27d2d19142f9a2109bb04617985ec9/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/83c19ad3acd28b4b09c4d9e889ee66e119b0013fccd6542425d45713691d/Mock.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8aca45508683a6169bab9e8bd96b7cda607d638cacfaa31173c8c278c45/ISender.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,15 +76,21 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9dffe2c1bfadbba3cc54dd67efd32ec5ddbd8632382da9153e687cfb9cb2da/Assembly.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1e830db66f4537520b48f395e1d155c5280a87c9832c95b2e918185764c773/INotificationHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a62d52e4cd3e5325829357cce9d4e0b145cf712db36e988d1579943c9013160/IMediator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a6e4b22d41bba77b9014bd382d1d5a85afbc7d9fc6372a86bb83a4e2d1548cae/ValidationResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b37bdcda3df384671c8eed0dd528e74eff6e04eeb7b1e81f219e5e066318/ComponentBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b879a8d0f5e821af476868912fb2b1b41531642b4ba341961a2d0db7abd38bc/TaskAsyncEnumerableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b8d2795a624ec1ca285de7c049f728624e8b8a82388f8d67db20c33442b28f53/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c765e47ec58cf89220cd5779fc5cce70b01abab88edf4ed2b5deaba1244c610/IValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c8912f93b703b2c59e72ac321bfd19a2e50a628b338f871988a74fe7c77ab2/IValidationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cf91eb35ab781c324ad4fa382dce85631ec37cf3813529f7c92208d866c851/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d08cf4fe6c8616dab4c140d3a928b5d120d4119319ee4f2c28285d654ca607a/EntityEntry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de271ccf3ff37986b6d3371645fe3b139cc5e384e759f686d8b2e87c734b0/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de2fe8429434601dcc939e9c1b4905fd1e8193ea4397885dd8f59488a18c94/ReferenceEntry.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74356f198b598e97eaeea83e8b7b1f2bfe27c0a39fedf86bb7dc44827fbda/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eaf74182ad7c943aaf043fd9e7bbb1d564713c6bd276e62966aaa618e9/LoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eb1569de671985d709333d699e35bcf5219aa6e173421d3425379ffd2498e/IRequestPreProcessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ec11765cbb8c53eff7ee868d6884fa5d48e1b543926061744e7947896e88422/CancellationToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2Omv1mTaE5UusvbRFFL1TzFOUnk" />
@@ -89,7 +110,7 @@
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -210,7 +231,11 @@
       <workItem from="1682964207503" duration="7514000" />
       <workItem from="1683056899765" duration="6400000" />
       <workItem from="1683127472837" duration="14170000" />
-      <workItem from="1683203811404" duration="11321000" />
+      <workItem from="1683203811404" duration="13273000" />
+      <workItem from="1683296316124" duration="1971000" />
+      <workItem from="1683384945391" duration="1471000" />
+      <workItem from="1683386895206" duration="2819000" />
+      <workItem from="1683478643182" duration="2695000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1682874771715</created>
@@ -266,11 +291,58 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1683148390907</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="wip">
+      <created>1683234567153</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1683234567153</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="280" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 46% 235/437" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 46% 235/437" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 26% 235/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 46% 235/437" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 26% 235/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Domain 55% 15/33" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 46% 235/437" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 26% 235/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Domain 55% 15/33" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Domain 55% 15/33" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 46% 235/437" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 26% 235/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Domain 55% 15/33" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Domain 55% 15/33" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Common 62% 8/21" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -296,39 +368,60 @@
     <MESSAGE value="Added ValidationBehaviours" />
     <MESSAGE value="added nswag" />
     <MESSAGE value="Added some unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some unit tests" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Application.UnitTests/Common/Behaviours/LoggingBehaviourTests.cs</url>
-          <line>23</line>
-          <properties documentPath="F:\GIT\FieldServiceHelper\Application.UnitTests\Common\Behaviours\LoggingBehaviourTests.cs" initialLine="28" containingFunctionPresentation="method 'ShouldReturnCorrectTaskCompleted'">
+          <url>file://$PROJECT_DIR$/Application/Common/Behaviours/ValidationBehaviour.cs</url>
+          <line>28</line>
+          <properties documentPath="F:\GIT\FieldServiceHelper\Application\Common\Behaviours\ValidationBehaviour.cs" initialLine="28" containingFunctionPresentation="method 'Handle'">
             <startOffsets>
-              <option value="745" />
+              <option value="861" />
             </startOffsets>
             <endOffsets>
-              <option value="759" />
+              <option value="995" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Application/Common/Behaviours/ValidationBehaviour.cs</url>
-          <line>17</line>
-          <properties documentPath="F:\GIT\FieldServiceHelper\Application\Common\Behaviours\ValidationBehaviour.cs" initialLine="17" containingFunctionPresentation="method 'Handle'">
+          <line>24</line>
+          <properties documentPath="F:\GIT\FieldServiceHelper\Application\Common\Behaviours\ValidationBehaviour.cs" initialLine="24" containingFunctionPresentation="method 'Handle'">
             <startOffsets>
-              <option value="550" />
+              <option value="709" />
             </startOffsets>
             <endOffsets>
-              <option value="573" />
+              <option value="851" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Application.UnitTests/Common/Exceptions/ValidationExceptionTests.cs</url>
+          <line>33</line>
+          <properties documentPath="F:\GIT\FieldServiceHelper\Application.UnitTests\Common\Exceptions\ValidationExceptionTests.cs" initialLine="33" containingFunctionPresentation="method 'Constructor_Failures_SetsErrors'">
+            <startOffsets>
+              <option value="898" />
+            </startOffsets>
+            <endOffsets>
+              <option value="951" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Castle.Proxies.IValidator`1Proxy" memberName="token_ValidateAsync" />
+        <PinnedItemInfo parentTag="Type#Castle.Proxies.IValidator`1Proxy" memberName="Interceptor" />
+        <PinnedItemInfo parentTag="Type#Castle.Proxies.IValidator`1Proxy" memberName="Moq.IMocked`1[IValidator`1[CreateExampleCommand]].Mock" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

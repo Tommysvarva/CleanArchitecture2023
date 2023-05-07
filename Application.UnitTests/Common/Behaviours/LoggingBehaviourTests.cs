@@ -1,26 +1,24 @@
 using Application.Common.Behaviours;
 using Application.Examples.Commands.CreateExample;
 using Microsoft.Extensions.Logging;
-using Moq;
-using Xunit;
-
 namespace Application.UnitTests.Common.Behaviours;
 
 public class LoggingBehaviourTests
 {
     [Fact]
-    public async Task Logs_WhenCalled()
+    public async Task Process_LogsInformation()
     {
-        //Arrange
-        var logger = new Mock<ILogger<CreateExampleCommand>>();
-        var command = new CreateExampleCommand{Title = "TestCommand1"};
-        var cancellationToken = new CancellationToken();
-        var loggingBehaviour = new LoggingBehaviour<CreateExampleCommand>(logger.Object);
-        
-        //Act
-        await loggingBehaviour.Process(command, cancellationToken);
-         
-        //Assert
-         Assert.NotEmpty(logger.Invocations);
+        // Arrange
+        var loggerMock = new Mock<ILogger<CreateExampleCommand>>();
+        var behaviour = new LoggingBehaviour<CreateExampleCommand>(loggerMock.Object);
+        var request = new CreateExampleCommand();
+
+        // Act
+        await behaviour.Process(request, CancellationToken.None);
+
+        // Assert
+        Assert.Equal(LogLevel.Information, loggerMock.Invocations[0].Arguments[0]);
+        Assert.Equal(new EventId(0),loggerMock.Invocations[0].Arguments[1]);
+        Assert.Equal("Processed request: CreateExampleCommand CreateExampleCommand { Title =  }", loggerMock.Invocations[0].Arguments[2].ToString());
     }
 }
