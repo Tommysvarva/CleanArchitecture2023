@@ -12,7 +12,11 @@
       &lt;TestId&gt;xUnit::14D2905A-EC12-469D-A1CF-E9E917B684D4::net7.0::Domain.UnitTests.Entities.ExampleTests.ExampleEntity_Title_ShouldNotBeNull&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::14D2905A-EC12-469D-A1CF-E9E917B684D4::net7.0::Domain.UnitTests.Events.ExampleCreatedEventTests.ExampleCreatedEvent_ShouldContainCreatedExample&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::14D2905A-EC12-469D-A1CF-E9E917B684D4::net7.0::Domain.UnitTests.Events.ExampleDeletedEventTests.ExampleDeletedEvent_ShouldContainDeletedExample&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::44AE58FE-3502-4084-A61E-C53DE19628C8::net7.0::Application.IntegrationTests.test.test1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::44AE58FE-3502-4084-A61E-C53DE19628C8::net7.0::Application.IntegrationTests.ExamplesController.CreateExampleControllerTests&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;14D2905A-EC12-469D-A1CF-E9E917B684D4/d:Common/f:BaseAuditableEntityTests.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=appsettings/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=respawner/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
