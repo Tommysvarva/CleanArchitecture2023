@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Newtonsoft.Json;
 using Respawn;
 using Xunit;
+using Xunit.Sdk;
 
 namespace Application.IntegrationTests;
 
@@ -23,6 +24,7 @@ public class CustomWebApplicationFactory : WebApplicationFactory<IApiMarker>, IA
     private Respawner _respawner = default!;
     private static IConfiguration _configuration = default!;
     private string _baseUri = default!;
+    private static IServiceScopeFactory _scopeFactory = default!;
 
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
@@ -45,7 +47,21 @@ public class CustomWebApplicationFactory : WebApplicationFactory<IApiMarker>, IA
         });
     }
 
-    public async Task<HttpResponseMessage> SendAsync<TBody>(TBody body, string path)
+    public async Task InitializeAsync()
+    {
+        _configuration = Services.GetRequiredService<IConfiguration>();
+        _scopeFactory = Services.GetRequiredService<IServiceScopeFactory>();
+        _baseUri = _configuration["BaseUri"]!.TrimEnd('/');
+        await InitializeRespawner();
+        HttpClient = CreateClient();
+    }
+
+    public new Task DisposeAsync()
+    {
+        return Task.CompletedTask;
+    }
+
+    public async Task<HttpResponseMessage> HttpClientSendAsync<TBody>(TBody body, string path)
     {
         var uri = $"{_baseUri}/{path.TrimStart('/')}";
         var jsonBody = JsonConvert.SerializeObject(body);
@@ -57,18 +73,14 @@ public class CustomWebApplicationFactory : WebApplicationFactory<IApiMarker>, IA
         return await HttpClient.SendAsync(request);
     }
 
-    public async Task InitializeAsync()
+    public async Task<TEntity?> DbFindAsync<TEntity>(params object[] keyValues)
+        where TEntity : class
     {
-        _configuration = Services.GetRequiredService<IConfiguration>();
-        _baseUri = _configuration["BaseUri"]!.TrimEnd('/');
-        await InitializeRespawner();
-        HttpClient = CreateClient();
+        using var scope = _scopeFactory.CreateScope();
+        var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        return await context.FindAsync<TEntity>(keyValues);
     }
 
-    public new Task DisposeAsync()
-    {
-        return Task.CompletedTask;
-    }
 
     public async Task ResetDatabaseAsync()
     {

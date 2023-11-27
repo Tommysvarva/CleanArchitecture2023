@@ -17,21 +17,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/API/IApiMarker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/appsettings.Test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application.IntegrationTests/Application.IntegrationTests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application.IntegrationTests/CustomWebApplicationFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application.IntegrationTests/Examples/CreateExampleTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application.IntegrationTests/Examples/GetExamplesTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application.IntegrationTests/SetupFixture.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application.IntegrationTests/SharedTestCollection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application.IntegrationTests/test.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/efCoreCommonOptions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/efCoreDialogsState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CleanArchitecture2023.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/efCoreCommonOptions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/efCoreDialogsState.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FieldServiceHelper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ExamplesControlles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ExamplesControlles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldServiceHelper.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FieldServiceHelper.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FieldServiceHelper.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/FieldServiceHelper.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/26ab12b3-7137-4cf4-b950-688d3e61ca36.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/FileContentIndex/7eae6c1f-27f0-43e3-a7c2-b3742f348b20.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FieldServiceHelper/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.metadata.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.metadata.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.projects.v6.1" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/fieldservicehelper.projects.v6.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.IntegrationTests/Application.IntegrationTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application.IntegrationTests/Application.IntegrationTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.IntegrationTests/CustomWebApplicationFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application.IntegrationTests/CustomWebApplicationFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.IntegrationTests/Examples/CreateExampleTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application.IntegrationTests/Examples/CreateExampleTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.IntegrationTests/test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Common/Behaviours/ValidationBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Common/Behaviours/ValidationBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/ConfigureServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Examples/Commands/CreateExample/CreateExampleCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Validators/Examples/CreateExampleCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FieldServiceHelper.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitecture2023.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +61,19 @@
       <list>
         <option value="JSON File" />
       </list>
+    </option>
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b9d906f3-7aee-48ba-9c8c-8d1724b0f696" />
+        <option name="url" value="https://github.com/Tommysvarva/FieldServiceHelper.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -65,6 +96,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/327f875fd92c358a2c6b3c48cc81b288070ecb997371cd17419f80a482a617/LayoutComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/35e7e538796eca19115e7f3c2f459e1951ae177d47eb48ebbf393bff3ac/Select.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/38284ca4f4afe378f96fccac3e179f4bceda7a74eb151623b66d2dc3634d9b/ExceptionAggregator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/38ed33da781d42d5e0ff12be99f999a991103a8627636ff5d8b57f4b3842860/CallerIdentifier.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43d942565ce5bcf4f5873a5f9e89c5892322f865f81d3a8af8fca8d4c8fc84/IInvocationList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/485da50d43321b81edc28153271bdedb84943a243743e2deaa67a981587968/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4dc731a2825b3b282c3a7fc5adbea47e8720eadf5445558010f8488ec05eb64f/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
@@ -73,6 +105,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/57ef264888488357640f23a308ccecd818012805b7b56dd32bd469a819f56ee/IPipelineBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5939cc1db917894f431a56f3c68e6bef1ade5c56e1cc94de5f14d5305d7e2af3/InvalidOperationException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5d5db687ee14799d7e1e2dcb6868b02d43c1c6ff712d6df9a33648e8a91cd7/MediatrServiceConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/621526284d3e4868b98948aff942206525763e57e194a27623b66c384466/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/64d54c9380e9feafc4516c6538f7205ed34690deab5738a284de992657bbefc/CallSiteFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/659951c221ca1c435718c2e746a9e7f9343bbf8054969595da489dcd95175737/DynamicComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6879c9ed20391a5ccfea363be5964fbcfe4f1dfde9558aa84b36df6b6ec92c6/List.cs" root0="SKIP_HIGHLIGHTING" />
@@ -95,6 +128,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b37bdcda3df384671c8eed0dd528e74eff6e04eeb7b1e81f219e5e066318/ComponentBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b879a8d0f5e821af476868912fb2b1b41531642b4ba341961a2d0db7abd38bc/TaskAsyncEnumerableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b8d2795a624ec1ca285de7c049f728624e8b8a82388f8d67db20c33442b28f53/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c2b7c5b7774dae034cad3ace92c5611f759e5102f1169cfb2f62ace983e1652/FluentActions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c765e47ec58cf89220cd5779fc5cce70b01abab88edf4ed2b5deaba1244c610/IValidator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c8912f93b703b2c59e72ac321bfd19a2e50a628b338f871988a74fe7c77ab2/IValidationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cf91eb35ab781c324ad4fa382dce85631ec37cf3813529f7c92208d866c851/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
@@ -105,6 +139,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eaf74182ad7c943aaf043fd9e7bbb1d564713c6bd276e62966aaa618e9/LoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eb1569de671985d709333d699e35bcf5219aa6e173421d3425379ffd2498e/IRequestPreProcessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ec11765cbb8c53eff7ee868d6884fa5d48e1b543926061744e7947896e88422/CancellationToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f4d0bee010ab6739d7adfefec537d89d81be328198363011e28f7cb4b8d58321/XunitWorkerThread.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5545b2656401abe1a371ad2756d7d2328a38293f7ee8b163801bbf55cee8/TestInvoker.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -273,6 +308,11 @@
       <workItem from="1684085771004" duration="2577000" />
       <workItem from="1684167100434" duration="3348000" />
       <workItem from="1684232808855" duration="12811000" />
+      <workItem from="1684512923992" duration="437000" />
+      <workItem from="1684587340886" duration="1223000" />
+      <workItem from="1684664512484" duration="4965000" />
+      <workItem from="1684758280968" duration="1140000" />
+      <workItem from="1701109144446" duration="524000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1682874771715</created>
@@ -347,30 +387,30 @@
     <option name="version" value="3" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="57" />
+    <option name="coveragePercentColumnWidth" value="45" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="118" />
+    <option name="symbolColumnWidth" value="89" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 48% 289/552" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 48% 287/550" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 48% 289/552" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 48% 287/550" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="src 30% 220/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 48% 289/552" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 48% 287/550" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="src 30% 220/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Application 56% 50/113" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 48% 289/552" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 48% 287/550" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="src 30% 220/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Application 56% 50/113" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="Application 56% 50/113" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
@@ -424,43 +464,30 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Application.IntegrationTests/test.cs</url>
-          <line>21</line>
-          <properties documentPath="F:\GIT\FieldServiceHelper\Application.IntegrationTests\test.cs" initialLine="21" containingFunctionPresentation="method 'test1'">
+          <url>file://$PROJECT_DIR$/Application/Examples/Commands/CreateExample/CreateExampleCommand.cs</url>
+          <line>23</line>
+          <properties documentPath="F:\GIT\FieldServiceHelper\Application\Examples\Commands\CreateExample\CreateExampleCommand.cs" initialLine="23" containingFunctionPresentation="method 'Handle'">
             <startOffsets>
-              <option value="594" />
+              <option value="597" />
             </startOffsets>
             <endOffsets>
-              <option value="617" />
+              <option value="676" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Application.IntegrationTests/Examples/CreateExampleTests.cs</url>
-          <line>41</line>
-          <properties documentPath="F:\GIT\FieldServiceHelper\Application.IntegrationTests\Examples\CreateExampleTests.cs" initialLine="40" containingFunctionPresentation="method 'Get'">
+          <url>file://$PROJECT_DIR$/Application/Common/Behaviours/UnhandledExceptionBehaviour.cs</url>
+          <line>22</line>
+          <properties documentPath="F:\GIT\FieldServiceHelper\Application\Common\Behaviours\UnhandledExceptionBehaviour.cs" initialLine="22" containingFunctionPresentation="method 'Handle'">
             <startOffsets>
-              <option value="1138" />
+              <option value="634" />
             </startOffsets>
             <endOffsets>
-              <option value="1173" />
+              <option value="674" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Application.IntegrationTests/Examples/CreateExampleTests.cs</url>
-          <line>33</line>
-          <properties documentPath="F:\GIT\FieldServiceHelper\Application.IntegrationTests\Examples\CreateExampleTests.cs" initialLine="33" containingFunctionPresentation="method 'Create'">
-            <startOffsets>
-              <option value="973" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1008" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

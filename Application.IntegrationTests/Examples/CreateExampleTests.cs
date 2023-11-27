@@ -1,12 +1,8 @@
-using System.Text;
 using System.Text.Json;
 using Domain.Entities;
 using Xunit;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Respawn;
 
-namespace Application.IntegrationTests.ExamplesController;
+namespace Application.IntegrationTests.Examples;
 
 [Collection("Test collection")]
 public class CreateExampleControllerTests : IAsyncLifetime
@@ -21,25 +17,31 @@ public class CreateExampleControllerTests : IAsyncLifetime
     }
 
     [Fact]
-    public async Task Create()
+    public async Task Create_ShouldCreate_Example()
     {
         var example = new Example
         {
-            Title = "test"
+            Title = "example"
         };
         
-        var response = await _factory.SendAsync(example, "/api/examples");
-        var content = await response.Content.ReadAsStringAsync();
-        var created =  JsonSerializer.Deserialize<JsonElement>(content);
+        var response = await _factory.HttpClientSendAsync(example, "/api/examples");
+        var exampleId = JsonSerializer.Deserialize<int>(await response.Content.ReadAsStreamAsync());
+        var createdExample = await _factory.DbFindAsync<Example>(exampleId);
+        
         response.EnsureSuccessStatusCode();
+        Assert.IsType<int>(exampleId);
+        Assert.NotNull(createdExample);
+        Assert.Equal("example", createdExample.Title);
     }
 
     [Fact]
-    public async Task Get()
+    public async Task Create_ShouldThrown_ValidationException()
     {
-        var response = await _httpClient.GetAsync("/api/examples");
-
-        response.EnsureSuccessStatusCode();
+        var example = new Example
+        {
+            Title = "e"
+        };
+        
     }
 
 
