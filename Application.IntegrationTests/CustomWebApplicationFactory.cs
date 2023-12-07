@@ -2,7 +2,7 @@ using System.Data.Common;
 using System.Text;
 using API;
 using Application.Common.Interfaces;
-using Infrastructure.Persistence;
+using Infrastructure.Data;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;

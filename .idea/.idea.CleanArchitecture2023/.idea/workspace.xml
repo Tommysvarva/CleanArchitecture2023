@@ -16,8 +16,25 @@
     <projectFile profileName="https">WebUI/WebUI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="rename ish maybe hehe">
-      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
+    <list default="true" id="27fbf2dd-dbf9-4b76-a5dd-c55bfa99aff6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application.FunctionalTests/Application.FunctionalTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.FunctionalTests/CustomWebApplicationFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.FunctionalTests/GlobalUsings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application.FunctionalTests/TestContainersTestDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/Interceptors/DispatchDomainEventInterceptor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanArchitecture2023/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/ConfigureServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitecture2023.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitecture2023.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CleanArchitecture2023.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CleanArchitecture2023.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/ApplicationDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Configurations/ExampleConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/Configurations/ExampleConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Interceptors/AuditableEntitySaveChangesInterceptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/Interceptors/AuditableEntityInterceptor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/20230501191922_Initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/Migrations/20230501191922_Initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/20230501191922_Initial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/Migrations/20230501191922_Initial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Persistence/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +83,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/659951c221ca1c435718c2e746a9e7f9343bbf8054969595da489dcd95175737/DynamicComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6879c9ed20391a5ccfea363be5964fbcfe4f1dfde9558aa84b36df6b6ec92c6/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/72d4c2a2a11f35e7651506d18dce6d5f2fcf2eb8a57ac4bba5b9ca8178b02a/ValidationException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/76c34895499014ba24bd5639d51692b89e2fb284cec93d6bde5efb342f481e/ContainerBuilder`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/794bcfedceb3c6d957fbddf0e1c9a04afca77f9b5470c6859466cfba35e1ddb1/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ad7d2d0ae865063993eb8a03427815ea3bdb6a774e0a2f95512e9f669a4f489/MemberEntry.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7b45c28cfc11122669a3335b2554d8721ab9c8852ed3ea489c44a32ff3b64e6/It.cs" root0="SKIP_HIGHLIGHTING" />
@@ -269,6 +287,8 @@
       <workItem from="1684664512484" duration="4965000" />
       <workItem from="1684758280968" duration="1140000" />
       <workItem from="1701109694403" duration="1348000" />
+      <workItem from="1701792762803" duration="2106000" />
+      <workItem from="1701957901323" duration="1320000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1682874771715</created>
@@ -352,32 +372,9 @@
     <option name="coveragePercentColumnWidth" value="45" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="89" />
+    <option name="symbolColumnWidth" value="205" />
     <coverage-tree-state>
-      <expand>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 48% 289/552" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 48% 289/552" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 30% 220/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 48% 289/552" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 30% 220/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Application 56% 50/113" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 48% 289/552" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 30% 220/316" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Application 56% 50/113" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Application 56% 50/113" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </coverage-tree-state>
   </component>

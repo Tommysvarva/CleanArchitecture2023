@@ -63,7 +63,7 @@ public class ValidationBehaviourTests
         var validationBehaviour = new ValidationBehaviour<CreateExampleCommand, int>(validators);
 
         // Act & Assert
-        await Assert.ThrowsAsync<ValidationException>(
+        await Assert.ThrowsAsync<Application.Common.Exceptions.ValidationException>(
             async () => await validationBehaviour.Handle(request, nextMock.Object, cancellationToken));
 
         nextMock.Verify(next => next(), Times.Never);

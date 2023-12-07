@@ -1,4 +1,4 @@
-using Infrastructure.Persistence;
+using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using NSwag.Generation.Processors.Security;
 using ZymLabs.NSwag.FluentValidation;

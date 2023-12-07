@@ -1,22 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\tasec\AppData\Local\JetBrains\Rider2022.3\resharper-host\temp\Rider\vAny\CoverageData\_CleanArchitecture2023.-1178882354\Snapshot\snapshot.utdcvr</s:String>
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=752ef11f_002Dc27d_002D4b52_002Db94c_002D0a5f643a75ca/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldReturnCorrectTaskCompleted" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;xUnit::E6A0DC74-580C-4CED-9C91-D7734B1E5CC7::net7.0::Application.UnitTests.Common.Behaviours.UnhandledExceptionBehaviourTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::E6A0DC74-580C-4CED-9C91-D7734B1E5CC7::net7.0::Application.UnitTests.Common.Behaviours.LoggingBehaviourTests.Process_LogsInformation&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::E6A0DC74-580C-4CED-9C91-D7734B1E5CC7::net7.0::Application.UnitTests.Common.Behaviours.ValidationBehaviourTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::E6A0DC74-580C-4CED-9C91-D7734B1E5CC7::net7.0::Application.UnitTests.Common.Exceptions.ValidationExceptionTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::E6A0DC74-580C-4CED-9C91-D7734B1E5CC7::net7.0::Application.UnitTests.Common.Mappers.ExampleMapperTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::14D2905A-EC12-469D-A1CF-E9E917B684D4::net7.0::Domain.UnitTests.Common.BaseEntityTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::14D2905A-EC12-469D-A1CF-E9E917B684D4::net7.0::Domain.UnitTests.Entities.ExampleTests.ExampleEntity_Title_ShouldNotBeNull&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::14D2905A-EC12-469D-A1CF-E9E917B684D4::net7.0::Domain.UnitTests.Events.ExampleCreatedEventTests.ExampleCreatedEvent_ShouldContainCreatedExample&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::14D2905A-EC12-469D-A1CF-E9E917B684D4::net7.0::Domain.UnitTests.Events.ExampleDeletedEventTests.ExampleDeletedEvent_ShouldContainDeletedExample&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::44AE58FE-3502-4084-A61E-C53DE19628C8::net7.0::Application.IntegrationTests.test.test1&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::44AE58FE-3502-4084-A61E-C53DE19628C8::net7.0::Application.IntegrationTests.ExamplesController.CreateExampleControllerTests&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-    &lt;ProjectFile&gt;14D2905A-EC12-469D-A1CF-E9E917B684D4/d:Common/f:BaseAuditableEntityTests.cs&lt;/ProjectFile&gt;&#xD;
-  &lt;/Or&gt;&#xD;
+  &lt;Project Location="F:\GIT\FieldServiceHelper" Presentation="&amp;lt;tests&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UnloadedProject/UnloadedProjects/=f0d36d52_002Ded15_002D40ee_002Dbc4f_002D5d9a5426f87c_0023Application_002EFunctionalTests/@EntryIndexedValue">True</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=appsettings/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=respawner/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
