@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace Infrastructure.Persistence.Interceptors;
+namespace Infrastructure.Data.Interceptors;
 
-public class AuditableEntitySaveChangesInterceptor : SaveChangesInterceptor
+public class AuditableEntityInterceptor : SaveChangesInterceptor
 {
     private readonly IDateTime _dateTime;
 
-    public AuditableEntitySaveChangesInterceptor(IDateTime dateTime)
+    public AuditableEntityInterceptor(IDateTime dateTime)
     {
         _dateTime = dateTime;
     }
