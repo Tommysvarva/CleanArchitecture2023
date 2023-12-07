@@ -399,6 +399,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.idea/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
 
 ##
 ## Visual studio for Mac
